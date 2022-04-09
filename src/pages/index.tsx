@@ -2,6 +2,7 @@ import React from "react"
 import axios from "axios"
 import { navigate } from "gatsby"
 import GoogleMapReact from "google-map-react"
+import SEO from "../components/seo"
 
 const IndexPage = () => {
     const handleClick = async ({
@@ -32,6 +33,11 @@ const IndexPage = () => {
 
     return (
         <div style={{ height: "100vh", width: "100%" }}>
+            <SEO
+                title="The Movie Mapper - Find The Best Movies From Each Country"
+                description="Find The Best Movies From Each Country By Clicking On The Map Of The World"
+                tags={[]}
+            />
             <GoogleMapReact
                 bootstrapURLKeys={{ key: process.env.REACT_APP_MAPS_API || "" }}
                 defaultCenter={{
