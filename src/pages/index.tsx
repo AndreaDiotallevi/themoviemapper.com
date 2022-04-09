@@ -38,11 +38,8 @@ const IndexPage = () => {
     return (
         <div style={{ height: "100vh", width: "100%" }}>
             <Header isHome={true} title="THE MOVIE MAPPER" />
-            <div
-                className="sub-header-description"
-                style={{ width: "100%", padding: 8, margin: 0 }}
-            >
-                <p style={{ textAlign: "center" }}>
+            <div className="sub-header-description" style={{ margin: 0 }}>
+                <p style={{ padding: 8, width: "100%" }}>
                     Click on a country and find the best movies from that
                     country!
                 </p>

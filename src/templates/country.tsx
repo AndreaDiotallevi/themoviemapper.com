@@ -100,22 +100,31 @@ const Country = ({
                 isHome={false}
                 title={`WELCOME TO ${countriesJson.name.toUpperCase()}`}
             />
-            <div className="genre-buttons">
-                {genreList.map(genre => (
-                    <button
-                        className="genre-button"
-                        value={genre}
-                        onClick={() =>
-                            navigate(
-                                location.pathname +
-                                    `?genre=${genre.toLowerCase()}`
-                            )
-                        }
-                        key={genre}
-                    >
-                        {genre}
-                    </button>
-                ))}
+            <div
+                style={{
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                    backgroundColor: "black",
+                }}
+            >
+                <div className="genre-buttons">
+                    {genreList.map(genre => (
+                        <button
+                            className="genre-button"
+                            value={genre}
+                            onClick={() =>
+                                navigate(
+                                    location.pathname +
+                                        `?genre=${genre.toLowerCase()}`
+                                )
+                            }
+                            key={genre}
+                        >
+                            {genre}
+                        </button>
+                    ))}
+                </div>
             </div>
             <div className="movie-list-component">
                 <div className="movie-list-container">
