@@ -4,8 +4,9 @@ import { navigate } from "gatsby"
 import GoogleMapReact from "google-map-react"
 import SEO from "../components/seo"
 
-const IndexPage = props => {
-    console.log(props)
+import "../styles/index.scss"
+
+const IndexPage = () => {
     const handleClick = async ({
         lat,
         lng,
