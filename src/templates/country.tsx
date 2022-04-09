@@ -79,7 +79,7 @@ const Country = ({
         test()
     }, [])
 
-    const filterMovies = () => {
+    const filterMovies = (): Movie[] => {
         const { genre }: { genre?: string } = queryString.parse(search)
 
         if (!genre) return movies
@@ -108,22 +108,24 @@ const Country = ({
                     backgroundColor: "black",
                 }}
             >
-                <div className="genre-buttons">
-                    {genreList.map(genre => (
-                        <button
-                            className="genre-button"
-                            value={genre}
-                            onClick={() =>
-                                navigate(
-                                    location.pathname +
-                                        `?genre=${genre.toLowerCase()}`
-                                )
-                            }
-                            key={genre}
-                        >
-                            {genre}
-                        </button>
-                    ))}
+                <div style={{ width: "100%", padding: "0 8px" }}>
+                    <div className="genre-buttons">
+                        {genreList.map(genre => (
+                            <button
+                                className="genre-button"
+                                value={genre}
+                                onClick={() =>
+                                    navigate(
+                                        location.pathname +
+                                            `?genre=${genre.toLowerCase()}`
+                                    )
+                                }
+                                key={genre}
+                            >
+                                {genre}
+                            </button>
+                        ))}
+                    </div>
                 </div>
             </div>
             <div className="movie-list-component">
