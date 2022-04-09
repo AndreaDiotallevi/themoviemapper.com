@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { graphql, PageProps } from "gatsby"
+import { graphql, navigate, PageProps } from "gatsby"
 import axios from "axios"
 import { IGatsbyImageData } from "gatsby-plugin-image"
 import queryString from "query-string"
@@ -7,6 +7,7 @@ import queryString from "query-string"
 import SEO from "../components/seo"
 import MovieDetail from "../components/movieDetail"
 import Header from "../components/header"
+import genreList from "../utils/genreList"
 
 type DataProps = {
     countriesJson: {
@@ -79,29 +80,43 @@ const Country = ({
     }, [])
 
     const filterMovies = () => {
-        const values = queryString.parse(search)
-        // console.log(values)
+        const { genre }: { genre?: string } = queryString.parse(search)
 
-        if (!values["genre"] || values["genre"] === "All") {
-            return movies
-        } else {
-            return movies.filter(movie =>
-                movie.Genre.split(", ").includes(values["genre"])
-            )
-        }
+        if (!genre) return movies
+
+        if (genre === "all") return movies
+
+        return movies.filter(movie => movie.Genre.toLowerCase().includes(genre))
     }
 
     return (
         <div>
-            <Header
-                isHome={false}
-                title={`WELCOME TO ${countriesJson.name.toUpperCase()}`}
-            />
             <SEO
                 title="The Movie Mapper - TBC"
                 description="Find The Best Movies From Each Country By Clicking On The Map Of The World"
                 tags={[]}
             />
+            <Header
+                isHome={false}
+                title={`WELCOME TO ${countriesJson.name.toUpperCase()}`}
+            />
+            <div className="genre-buttons">
+                {genreList.map(genre => (
+                    <button
+                        className="genre-button"
+                        value={genre}
+                        onClick={() =>
+                            navigate(
+                                location.pathname +
+                                    `?genre=${genre.toLowerCase()}`
+                            )
+                        }
+                        key={genre}
+                    >
+                        {genre}
+                    </button>
+                ))}
+            </div>
             <div className="movie-list-component">
                 <div className="movie-list-container">
                     <ul>

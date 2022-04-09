@@ -13,13 +13,11 @@ const Header = (props: DataProps) => {
         <div className="header-component">
             <div className="header-container">
                 {!isHome && (
-                    <Link to="/" data-test="back-home-link">
+                    <Link to="/">
                         <i className="arrow-left"></i>
                     </Link>
                 )}
-                <h1 className="header-title" data-test="header-title">
-                    {title}
-                </h1>
+                <h1 className="header-title">{title}</h1>
             </div>
         </div>
     )

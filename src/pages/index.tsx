@@ -38,6 +38,15 @@ const IndexPage = () => {
     return (
         <div style={{ height: "100vh", width: "100%" }}>
             <Header isHome={true} title="THE MOVIE MAPPER" />
+            <div
+                className="sub-header-description"
+                style={{ width: "100%", padding: 8, margin: 0 }}
+            >
+                <p style={{ textAlign: "center" }}>
+                    Click on a country and find the best movies from that
+                    country!
+                </p>
+            </div>
             <SEO
                 title="The Movie Mapper - Find The Best Movies From Each Country"
                 description="Find The Best Movies From Each Country By Clicking On The Map Of The World"
