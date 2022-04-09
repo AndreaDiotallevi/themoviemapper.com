@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react"
 import { graphql, PageProps } from "gatsby"
 import axios from "axios"
 import { IGatsbyImageData } from "gatsby-plugin-image"
+import queryString from "query-string"
 
 import SEO from "../components/seo"
 import MovieDetail from "../components/movieDetail"
+import Header from "../components/header"
 
 type DataProps = {
     countriesJson: {
@@ -77,21 +79,24 @@ const Country = ({
     }, [])
 
     const filterMovies = () => {
-        return movies
-        // return
-        // const values = queryString.parse(search)
+        const values = queryString.parse(search)
+        // console.log(values)
 
-        // if (!values["genre"] || values["genre"] === "All") {
-        //     return movies
-        // } else {
-        //     return movies.filter(movie =>
-        //         movie.Genre.split(", ").includes(values["genre"])
-        //     )
-        // }
+        if (!values["genre"] || values["genre"] === "All") {
+            return movies
+        } else {
+            return movies.filter(movie =>
+                movie.Genre.split(", ").includes(values["genre"])
+            )
+        }
     }
 
     return (
         <div>
+            <Header
+                isHome={false}
+                title={`WELCOME TO ${countriesJson.name.toUpperCase()}`}
+            />
             <SEO
                 title="The Movie Mapper - TBC"
                 description="Find The Best Movies From Each Country By Clicking On The Map Of The World"

@@ -2,7 +2,9 @@ import React from "react"
 import axios from "axios"
 import { navigate } from "gatsby"
 import GoogleMapReact from "google-map-react"
+
 import SEO from "../components/seo"
+import Header from "../components/header"
 
 import "../styles/index.scss"
 
@@ -35,6 +37,7 @@ const IndexPage = () => {
 
     return (
         <div style={{ height: "100vh", width: "100%" }}>
+            <Header isHome={true} title="THE MOVIE MAPPER" />
             <SEO
                 title="The Movie Mapper - Find The Best Movies From Each Country"
                 description="Find The Best Movies From Each Country By Clicking On The Map Of The World"
