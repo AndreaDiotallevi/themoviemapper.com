@@ -42,13 +42,13 @@ const config: GatsbyConfig = {
                 },
             },
         },
-        {
-            resolve: `@ccalamos/gatsby-source-googlemaps-static`,
-            options: {
-                key: process.env.REACT_APP_MAPS_API,
-                center: `LATITUDE,LONGITUDE || CITY,REGION`,
-            },
-        },
+        // {
+        //     resolve: `@ccalamos/gatsby-source-googlemaps-static`,
+        //     options: {
+        //         key: process.env.REACT_APP_MAPS_API,
+        //         center: `LATITUDE,LONGITUDE || CITY,REGION`,
+        //     },
+        // },
     ],
 }
 
