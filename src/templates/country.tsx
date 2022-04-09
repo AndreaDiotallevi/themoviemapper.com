@@ -63,7 +63,7 @@ const Country = ({
     const [movies, setMovies] = useState<Movie[]>([])
 
     useEffect(() => {
-        const test = async () => {
+        const fetchMovies = async () => {
             countriesJson.movies.forEach(async (movie, index) => {
                 const titleUrl = movie.toLowerCase().split(" ").join("-")
                 const response = await axios.get(
@@ -76,15 +76,13 @@ const Country = ({
             })
         }
 
-        test()
+        movies.length === 0 && fetchMovies()
     }, [])
 
     const filterMovies = (): Movie[] => {
         const { genre }: { genre?: string } = queryString.parse(search)
 
         if (!genre) return movies
-
-        if (genre === "all") return movies
 
         return movies.filter(movie => movie.Genre.toLowerCase().includes(genre))
     }
@@ -114,12 +112,14 @@ const Country = ({
                             <button
                                 className="genre-button"
                                 value={genre}
-                                onClick={() =>
+                                onClick={() => {
                                     navigate(
-                                        location.pathname +
-                                            `?genre=${genre.toLowerCase()}`
+                                        genre === "All"
+                                            ? location.pathname
+                                            : location.pathname +
+                                                  `?genre=${genre.toLowerCase()}`
                                     )
-                                }
+                                }}
                                 key={genre}
                             >
                                 {genre}
