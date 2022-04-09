@@ -106,7 +106,14 @@ const Country = ({
                     backgroundColor: "black",
                 }}
             >
-                <div style={{ width: "100%", padding: "0 8px" }}>
+                <div
+                    style={{
+                        width: "100%",
+                        display: "flex",
+                        justifyContent: "center",
+                        padding: "0 8px",
+                    }}
+                >
                     <div className="genre-buttons">
                         {genreList.map(genre => (
                             <button
