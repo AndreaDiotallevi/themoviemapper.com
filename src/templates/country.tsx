@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react"
-import { graphql, navigate, PageProps } from "gatsby"
+import { graphql, PageProps } from "gatsby"
 import axios from "axios"
 import { IGatsbyImageData } from "gatsby-plugin-image"
-import queryString from "query-string"
 
 import SEO from "../components/seo"
 import MovieDetail from "../components/movieDetail"
 import Header from "../components/header"
-import genreList from "../utils/genreList"
+import { Genre, genreList } from "../utils/genreList"
 
 type DataProps = {
     countriesJson: {
@@ -61,6 +60,7 @@ const Country = ({
 }: PageProps<DataProps>) => {
     const { search } = location
     const [movies, setMovies] = useState<Movie[]>([])
+    const [selectedGenre, setSelectedGenre] = useState<Genre | null>(null)
 
     useEffect(() => {
         const fetchMovies = async () => {
@@ -80,11 +80,17 @@ const Country = ({
     }, [])
 
     const filterMovies = (): Movie[] => {
-        const { genre }: { genre?: string } = queryString.parse(search)
+        // const { genre }: { genre?: string } = queryString.parse(search)
+        // if (!genre) return movies
+        // return movies.filter(movie => movie.Genre.toLowerCase().includes(genre))
 
-        if (!genre) return movies
-
-        return movies.filter(movie => movie.Genre.toLowerCase().includes(genre))
+        if (!selectedGenre) return movies
+        return movies
+            .filter(movie => movie.Genre.includes(selectedGenre))
+            .sort(
+                (movieA, movieB) =>
+                    parseInt(movieB.Year) - parseInt(movieA.Year)
+            )
     }
 
     return (
@@ -122,14 +128,19 @@ const Country = ({
                             <button
                                 className="genre-button"
                                 value={genre}
-                                onClick={() => {
-                                    navigate(
-                                        genre === "All"
-                                            ? location.pathname
-                                            : location.pathname +
-                                                  `?genre=${genre.toLowerCase()}`
+                                onClick={() =>
+                                    setSelectedGenre(
+                                        genre === "All" ? null : genre
                                     )
-                                }}
+                                }
+                                // onClick={() => {
+                                //     navigate(
+                                //         genre === "All"
+                                //             ? location.pathname
+                                //             : location.pathname +
+                                //                   `?genre=${genre.toLowerCase()}`
+                                //     )
+                                // }}
                                 key={genre}
                             >
                                 {genre}
