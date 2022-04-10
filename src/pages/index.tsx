@@ -16,7 +16,10 @@ const IndexPage = () => {
         // console.log(process)
         console.log("here")
         // console.log(process)
+        console.log(process.env.NODE_ENV)
         console.log(process.env.REACT_APP_LOCATION_API)
+        console.log(process.env.REACT_APP_MAPS_API)
+        console.log(process.env.REACT_APP_OMDB_API)
         try {
             const response = await axios.get(
                 `https://us1.locationiq.com/v1/reverse.php?key=${process.env.REACT_APP_LOCATION_API}&lat=${lat}&lon=${lng}&format=json`
