@@ -13,9 +13,11 @@ const IndexPage = () => {
         lat,
         lng,
     }: GoogleMapReact.ClickEventValue) => {
+        // console.log(process)
+        console.log("here")
+        // console.log(process)
+        console.log(process.env.REACT_APP_LOCATION_API)
         try {
-            console.log(process)
-            console.log(process.env)
             const response = await axios.get(
                 `https://us1.locationiq.com/v1/reverse.php?key=${process.env.REACT_APP_LOCATION_API}&lat=${lat}&lon=${lng}&format=json`
             )

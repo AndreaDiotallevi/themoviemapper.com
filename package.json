@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
     "gatsby": "^4.11.2",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
