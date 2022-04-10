@@ -1,6 +1,7 @@
 [
     {
         "name": "Afghanistan",
+        "code": "AF",
         "movies": [
             "The Kite Runner",
             "Firedancer",
@@ -12,7 +13,13 @@
         ]
     },
     {
+        "name": "\u00c5land Islands",
+        "code": "AX",
+        "movies": []
+    },
+    {
         "name": "Albania",
+        "code": "AL",
         "movies": [
             "The Lady From the Town",
             "Red Poppies on the Wall",
@@ -26,6 +33,7 @@
     },
     {
         "name": "Algeria",
+        "code": "DZ",
         "movies": [
             "The Battle of Algiers",
             "Chronicle of the Years of Fire",
@@ -35,11 +43,41 @@
         ]
     },
     {
+        "name": "American Samoa",
+        "code": "AS",
+        "movies": []
+    },
+    {
+        "name": "AndorrA",
+        "code": "AD",
+        "movies": []
+    },
+    {
         "name": "Angola",
-        "movies": ["Sambizanga", "Hollow City"]
+        "code": "AO",
+        "movies": [
+            "Sambizanga",
+            "Hollow City"
+        ]
+    },
+    {
+        "name": "Anguilla",
+        "code": "AI",
+        "movies": []
+    },
+    {
+        "name": "Antarctica",
+        "code": "AQ",
+        "movies": []
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "code": "AG",
+        "movies": []
     },
     {
         "name": "Argentina",
+        "code": "AR",
         "movies": [
             "The Motorcycle Diaries",
             "The Islanders",
@@ -78,6 +116,7 @@
     },
     {
         "name": "Armenia",
+        "code": "AM",
         "movies": [
             "V sinem more, v beloy pene\u2026",
             "Pepo",
@@ -90,7 +129,13 @@
         ]
     },
     {
+        "name": "Aruba",
+        "code": "AW",
+        "movies": []
+    },
+    {
         "name": "Australia",
+        "code": "AU",
         "movies": [
             "Moulin Rouge!",
             "Saw",
@@ -136,6 +181,7 @@
     },
     {
         "name": "Austria",
+        "code": "AT",
         "movies": [
             "Mr. Karl",
             "Funny Games",
@@ -170,30 +216,26 @@
     },
     {
         "name": "Azerbaijan",
-        "movies": ["The Scoundrel"]
-    },
-    {
-        "name": "Bosnia and Herzegovina",
+        "code": "AZ",
         "movies": [
-            "No Man's Land",
-            "Walter Defends Sarajevo",
-            "10 Minutes",
-            "The Perfect Circle",
-            "Days and Hours",
-            "Grbavica: The Land of My Dreams",
-            "Summer in the Golden Valley",
-            "Go West",
-            "It's Hard to Be Nice",
-            "location de voiture casablanca",
-            "location de voiture casablanca"
+            "The Scoundrel"
         ]
     },
     {
+        "name": "Bahamas",
+        "code": "BS",
+        "movies": []
+    },
+    {
         "name": "Bahrain",
-        "movies": ["A Bahraini Tale"]
+        "code": "BH",
+        "movies": [
+            "A Bahraini Tale"
+        ]
     },
     {
         "name": "Bangladesh",
+        "code": "BD",
         "movies": [
             "Taken From Life",
             "Song of Freedom",
@@ -211,7 +253,18 @@
         ]
     },
     {
+        "name": "Barbados",
+        "code": "BB",
+        "movies": []
+    },
+    {
+        "name": "Belarus",
+        "code": "BY",
+        "movies": []
+    },
+    {
         "name": "Belgium",
+        "code": "BE",
         "movies": [
             "Man Bites Dog",
             "Jeanne Dielman",
@@ -245,11 +298,31 @@
         ]
     },
     {
+        "name": "Belize",
+        "code": "BZ",
+        "movies": []
+    },
+    {
+        "name": "Benin",
+        "code": "BJ",
+        "movies": []
+    },
+    {
+        "name": "Bermuda",
+        "code": "BM",
+        "movies": []
+    },
+    {
         "name": "Bhutan",
-        "movies": ["Travellers and Magicians", "The Cup"]
+        "code": "BT",
+        "movies": [
+            "Travellers and Magicians",
+            "The Cup"
+        ]
     },
     {
         "name": "Bolivia",
+        "code": "BO",
         "movies": [
             "And So It Is",
             "The Night of San Juan",
@@ -258,11 +331,35 @@
         ]
     },
     {
-        "name": "Bostwana",
-        "movies": ["The Gods Must Be Crazy"]
+        "name": "Bosnia and Herzegovina",
+        "code": "BA",
+        "movies": [
+            "No Man's Land",
+            "Walter Defends Sarajevo",
+            "10 Minutes",
+            "The Perfect Circle",
+            "Days and Hours",
+            "Grbavica: The Land of My Dreams",
+            "Summer in the Golden Valley",
+            "Go West",
+            "It's Hard to Be Nice",
+            "location de voiture casablanca",
+            "location de voiture casablanca"
+        ]
+    },
+    {
+        "name": "Botswana",
+        "code": "BW",
+        "movies": []
+    },
+    {
+        "name": "Bouvet Island",
+        "code": "BV",
+        "movies": []
     },
     {
         "name": "Brazil",
+        "code": "BR",
         "movies": [
             "City of God",
             "Keeper of Promises",
@@ -306,7 +403,18 @@
         ]
     },
     {
+        "name": "British Indian Ocean Territory",
+        "code": "IO",
+        "movies": []
+    },
+    {
+        "name": "Brunei Darussalam",
+        "code": "BN",
+        "movies": []
+    },
+    {
         "name": "Bulgaria",
+        "code": "BG",
         "movies": [
             "Knight Without Armour",
             "Whale",
@@ -343,6 +451,7 @@
     },
     {
         "name": "Burkina Faso",
+        "code": "BF",
         "movies": [
             "Kounandi",
             "Yaaba",
@@ -356,11 +465,13 @@
         ]
     },
     {
-        "name": "Myanmar (Burma)",
-        "movies": ["Burma VJ: Reporting from a Closed Country", "Total Denial"]
+        "name": "Burundi",
+        "code": "BI",
+        "movies": []
     },
     {
         "name": "Cambodia",
+        "code": "KH",
         "movies": [
             "Bophana: A Cambodian Tragedy",
             "S-21: The Khmer Rouge Killing Machine",
@@ -369,10 +480,16 @@
     },
     {
         "name": "Cameroon",
-        "movies": ["Chocolat", "Man on the Bottom", "Sisters in Law"]
+        "code": "CM",
+        "movies": [
+            "Chocolat",
+            "Man on the Bottom",
+            "Sisters in Law"
+        ]
     },
     {
         "name": "Canada",
+        "code": "CA",
         "movies": [
             "Juno",
             "Eastern Promises",
@@ -424,7 +541,23 @@
         ]
     },
     {
+        "name": "Cape Verde",
+        "code": "CV",
+        "movies": []
+    },
+    {
+        "name": "Cayman Islands",
+        "code": "KY",
+        "movies": []
+    },
+    {
+        "name": "Central African Republic",
+        "code": "CF",
+        "movies": []
+    },
+    {
         "name": "Chad",
+        "code": "TD",
         "movies": [
             "DP75: Tartina City",
             "Dry Season",
@@ -434,6 +567,7 @@
     },
     {
         "name": "Chile",
+        "code": "CL",
         "movies": [
             "The Battle of Chile: Part 1,2,3",
             "The Holy Mountain",
@@ -452,6 +586,7 @@
     },
     {
         "name": "China",
+        "code": "CN",
         "movies": [
             "Crouching Tiger, Hidden Dragon",
             "Hero",
@@ -505,7 +640,18 @@
         ]
     },
     {
+        "name": "Christmas Island",
+        "code": "CX",
+        "movies": []
+    },
+    {
+        "name": "Cocos (Keeling) Islands",
+        "code": "CC",
+        "movies": []
+    },
+    {
         "name": "Colombia",
+        "code": "CO",
         "movies": [
             "Maria Full of Grace",
             "Vampires of Poverty",
@@ -519,7 +665,38 @@
         ]
     },
     {
+        "name": "Comoros",
+        "code": "KM",
+        "movies": []
+    },
+    {
+        "name": "Congo",
+        "code": "CG",
+        "movies": []
+    },
+    {
+        "name": "Congo, The Democratic Republic of the",
+        "code": "CD",
+        "movies": []
+    },
+    {
+        "name": "Cook Islands",
+        "code": "CK",
+        "movies": []
+    },
+    {
+        "name": "Costa Rica",
+        "code": "CR",
+        "movies": []
+    },
+    {
+        "name": "Cote D'Ivoire",
+        "code": "CI",
+        "movies": []
+    },
+    {
         "name": "Croatia",
+        "code": "HR",
         "movies": [
             "Beggars and Children",
             "H-8",
@@ -539,6 +716,7 @@
     },
     {
         "name": "Cuba",
+        "code": "CU",
         "movies": [
             "Memories of Underdevelopment",
             "I Am Cuba",
@@ -562,7 +740,13 @@
         ]
     },
     {
+        "name": "Cyprus",
+        "code": "CY",
+        "movies": []
+    },
+    {
         "name": "Czech Republic",
+        "code": "CZ",
         "movies": [
             "He Stood at the Till",
             "Potkali se u Kol\u00edna",
@@ -609,6 +793,7 @@
     },
     {
         "name": "Denmark",
+        "code": "DK",
         "movies": [
             "The Witches",
             "Matador",
@@ -654,7 +839,18 @@
         ]
     },
     {
+        "name": "Djibouti",
+        "code": "DJ",
+        "movies": []
+    },
+    {
+        "name": "Dominica",
+        "code": "DM",
+        "movies": []
+    },
+    {
         "name": "Dominican Republic",
+        "code": "DO",
         "movies": [
             "Balaguer: The Legacy of Tirans",
             "Trujillo (1,2,3)",
@@ -664,10 +860,16 @@
     },
     {
         "name": "Ecuador",
-        "movies": ["Chronicles", "Rodents", "How Much Further"]
+        "code": "EC",
+        "movies": [
+            "Chronicles",
+            "Rodents",
+            "How Much Further"
+        ]
     },
     {
         "name": "Egypt",
+        "code": "EG",
         "movies": [
             "The Nightingale's Prayer",
             "The Flirtation of Girls",
@@ -694,7 +896,23 @@
         ]
     },
     {
+        "name": "El Salvador",
+        "code": "SV",
+        "movies": []
+    },
+    {
+        "name": "Equatorial Guinea",
+        "code": "GQ",
+        "movies": []
+    },
+    {
+        "name": "Eritrea",
+        "code": "ER",
+        "movies": []
+    },
+    {
         "name": "Estonia",
+        "code": "EE",
         "movies": [
             "Spring Kevade",
             "Men don't cry",
@@ -715,6 +933,7 @@
     },
     {
         "name": "Ethiopia",
+        "code": "ET",
         "movies": [
             "Live and Become",
             " Harvest: 3,000 Years",
@@ -725,7 +944,23 @@
         ]
     },
     {
+        "name": "Falkland Islands (Malvinas)",
+        "code": "FK",
+        "movies": []
+    },
+    {
+        "name": "Faroe Islands",
+        "code": "FO",
+        "movies": []
+    },
+    {
+        "name": "Fiji",
+        "code": "FJ",
+        "movies": []
+    },
+    {
         "name": "Finland",
+        "code": "FI",
         "movies": [
             "The Unknown Soldier",
             "Inspector Palmu",
@@ -756,6 +991,7 @@
     },
     {
         "name": "France",
+        "code": "FR",
         "movies": [
             "L\u00e9on",
             "Amelie",
@@ -923,7 +1159,33 @@
         ]
     },
     {
+        "name": "French Guiana",
+        "code": "GF",
+        "movies": []
+    },
+    {
+        "name": "French Polynesia",
+        "code": "PF",
+        "movies": []
+    },
+    {
+        "name": "French Southern Territories",
+        "code": "TF",
+        "movies": []
+    },
+    {
+        "name": "Gabon",
+        "code": "GA",
+        "movies": []
+    },
+    {
+        "name": "Gambia",
+        "code": "GM",
+        "movies": []
+    },
+    {
         "name": "Georgia",
+        "code": "GE",
         "movies": [
             "Roots",
             "Mimino",
@@ -953,6 +1215,7 @@
     },
     {
         "name": "Germany",
+        "code": "DE",
         "movies": [
             "M",
             "Metropolis",
@@ -1019,10 +1282,21 @@
     },
     {
         "name": "Ghana",
-        "movies": ["Mummy's Daughter", "Soul to Soul", "Sankofa"]
+        "code": "GH",
+        "movies": [
+            "Mummy's Daughter",
+            "Soul to Soul",
+            "Sankofa"
+        ]
+    },
+    {
+        "name": "Gibraltar",
+        "code": "GI",
+        "movies": []
     },
     {
         "name": "Greece",
+        "code": "GR",
         "movies": [
             "The Counterfeit Coin",
             "Tis kakomoiras",
@@ -1056,23 +1330,61 @@
         ]
     },
     {
+        "name": "Greenland",
+        "code": "GL",
+        "movies": []
+    },
+    {
+        "name": "Grenada",
+        "code": "GD",
+        "movies": []
+    },
+    {
+        "name": "Guadeloupe",
+        "code": "GP",
+        "movies": []
+    },
+    {
         "name": "Guam",
-        "movies": ["What Sebastian Dreamt", "The Railroad All Stars"]
+        "code": "GU",
+        "movies": [
+            "What Sebastian Dreamt",
+            "The Railroad All Stars"
+        ]
+    },
+    {
+        "name": "Guatemala",
+        "code": "GT",
+        "movies": []
+    },
+    {
+        "name": "Guernsey",
+        "code": "GG",
+        "movies": []
     },
     {
         "name": "Guinea",
-        "movies": ["Denko", "I.T.  Immatriculation temporaire"]
+        "code": "GN",
+        "movies": [
+            "Denko",
+            "I.T.  Immatriculation temporaire"
+        ]
     },
     {
-        "name": "Guinea Bissau",
-        "movies": ["Death Denied", "Po di Sangui"]
+        "name": "Guinea-Bissau",
+        "code": "GW",
+        "movies": []
     },
     {
         "name": "Guyana",
-        "movies": ["Guiana 1838"]
+        "code": "GY",
+        "movies": [
+            "Guiana 1838"
+        ]
     },
     {
         "name": "Haiti",
+        "code": "HT",
         "movies": [
             "Lumumba",
             "Profit & Nothing But! ...",
@@ -1081,7 +1393,28 @@
         ]
     },
     {
+        "name": "Heard Island and Mcdonald Islands",
+        "code": "HM",
+        "movies": []
+    },
+    {
+        "name": "Holy See (Vatican City State)",
+        "code": "VA",
+        "movies": []
+    },
+    {
+        "name": "Honduras",
+        "code": "HN",
+        "movies": []
+    },
+    {
+        "name": "Hong Kong",
+        "code": "HK",
+        "movies": []
+    },
+    {
         "name": "Hungary",
+        "code": "HU",
         "movies": [
             "The Corporal and Others",
             "Indul a bakterh\u00e1z",
@@ -1122,6 +1455,7 @@
     },
     {
         "name": "Iceland",
+        "code": "IS",
         "movies": [
             "Heima",
             "Remote Control",
@@ -1139,6 +1473,7 @@
     },
     {
         "name": "India",
+        "code": "IN",
         "movies": [
             "Slumdog Millionaire",
             "Gandhi",
@@ -1203,6 +1538,7 @@
     },
     {
         "name": "Indonesia",
+        "code": "ID",
         "movies": [
             "Singing on the Cloud Denias",
             "Nagabonar",
@@ -1217,52 +1553,13 @@
         ]
     },
     {
-        "name": "Iran",
-        "movies": [
-            "P Like Pelican",
-            "Persepolis",
-            "The House Is Black",
-            "Hezar-Dastan",
-            "Children of Heaven",
-            "The Lizard",
-            "Close-up",
-            "The Cycle",
-            "Nights of Barareh",
-            "John Malkovich's Eyes",
-            "Turtles Can Fly",
-            "Where Is the Friend's Home?",
-            "The Cow",
-            "The Color of Paradise",
-            "About Elly ",
-            "Gheisar",
-            "The Deer",
-            "Taste of Cherry",
-            "Baran",
-            "And Life Goes On",
-            "The White Balloon",
-            "A Moment of Innocence",
-            "Through the Olive Trees",
-            "Mother",
-            "Bashu, the Little Stranger",
-            "A Time for Drunken Horses",
-            "The Runner",
-            "The Wind Will Carry Us",
-            "Crimson Gold",
-            "The Song of Sparrows",
-            "The Circle",
-            "Ten",
-            "As Simple as That",
-            " The Apple",
-            "Gabbeh",
-            "Offside",
-            "The Day I Became a Woman",
-            "Half Moon",
-            "Iron Island",
-            "A Seperation"
-        ]
+        "name": "Iran, Islamic Republic Of",
+        "code": "IR",
+        "movies": []
     },
     {
         "name": "Iraq",
+        "code": "IQ",
         "movies": [
             "War, Love, God and Madness",
             "The Agony of a People",
@@ -1275,6 +1572,7 @@
     },
     {
         "name": "Ireland",
+        "code": "IE",
         "movies": [
             "The Wind That Shakes the Barley",
             "The Quiet Man",
@@ -1300,7 +1598,13 @@
         ]
     },
     {
+        "name": "Isle of Man",
+        "code": "IM",
+        "movies": []
+    },
+    {
         "name": "Israel",
+        "code": "IL",
         "movies": [
             "Waltz with Bashir",
             "Promises",
@@ -1333,6 +1637,7 @@
     },
     {
         "name": "Italy",
+        "code": "IT",
         "movies": [
             "The Good, the Bad and the Ugly",
             "Once Upon a Time in the West ",
@@ -1419,10 +1724,16 @@
     },
     {
         "name": "Jamaica",
-        "movies": ["The Harder They Come", "Rockers ", "Countryman"]
+        "code": "JM",
+        "movies": [
+            "The Harder They Come",
+            "Rockers ",
+            "Countryman"
+        ]
     },
     {
         "name": "Japan",
+        "code": "JP",
         "movies": [
             "The Seven Samurai ",
             "Ran",
@@ -1452,15 +1763,29 @@
         ]
     },
     {
+        "name": "Jersey",
+        "code": "JE",
+        "movies": []
+    },
+    {
         "name": "Jordan",
-        "movies": ["Captain Abu Raed"]
+        "code": "JO",
+        "movies": [
+            "Captain Abu Raed"
+        ]
     },
     {
         "name": "Kazakhstan",
-        "movies": ["The Fall of Otrar", "The Gift to Stalin", "Tulpan"]
+        "code": "KZ",
+        "movies": [
+            "The Fall of Otrar",
+            "The Gift to Stalin",
+            "Tulpan"
+        ]
     },
     {
         "name": "Kenya",
+        "code": "KE",
         "movies": [
             "The Oath",
             "Mo and Me",
@@ -1470,15 +1795,46 @@
         ]
     },
     {
+        "name": "Kiribati",
+        "code": "KI",
+        "movies": []
+    },
+    {
+        "name": "Korea, Democratic People'S Republic of",
+        "code": "KP",
+        "movies": []
+    },
+    {
+        "name": "Korea, Republic of",
+        "code": "KR",
+        "movies": []
+    },
+    {
         "name": "Kuwait",
-        "movies": ["Losing Ahmad", "Cruel Sea", "Just Like You Imagined "]
+        "code": "KW",
+        "movies": [
+            "Losing Ahmad",
+            "Cruel Sea",
+            "Just Like You Imagined "
+        ]
     },
     {
         "name": "Kyrgyzstan",
-        "movies": ["Tengri", "The Adopted Son", "Pure Coolness "]
+        "code": "KG",
+        "movies": [
+            "Tengri",
+            "The Adopted Son",
+            "Pure Coolness "
+        ]
+    },
+    {
+        "name": "Lao People'S Democratic Republic",
+        "code": "LA",
+        "movies": []
     },
     {
         "name": "Latvia",
+        "code": "LV",
         "movies": [
             "Ten Minutes Older",
             "Emila nedarbi",
@@ -1492,6 +1848,7 @@
     },
     {
         "name": "Lebanon",
+        "code": "LB",
         "movies": [
             "The Guard's Daughter",
             "Beirut, I Love You",
@@ -1505,15 +1862,28 @@
         ]
     },
     {
-        "name": "Libya",
-        "movies": [
-            "Mohammad: Messenger of God",
-            "Lion of the Desert",
-            "Message"
-        ]
+        "name": "Lesotho",
+        "code": "LS",
+        "movies": []
+    },
+    {
+        "name": "Liberia",
+        "code": "LR",
+        "movies": []
+    },
+    {
+        "name": "Libyan Arab Jamahiriya",
+        "code": "LY",
+        "movies": []
+    },
+    {
+        "name": "Liechtenstein",
+        "code": "LI",
+        "movies": []
     },
     {
         "name": "Lithuania",
+        "code": "LT",
         "movies": [
             "Devil's Bride",
             "Tadas Blinda",
@@ -1529,24 +1899,33 @@
         ]
     },
     {
-        "name": "Macedonia",
-        "movies": [
-            "Macedonian Folk Stories",
-            "Before the Rain",
-            "Bloodshed at the Wedding",
-            "Black Seed",
-            "Miss Stone",
-            "Gypsy Magic",
-            "Suicide Guide",
-            "Stand Up Straight, Delfina",
-            "Tattoo",
-            "Mirage",
-            "Bal-Can-Can",
-            "Goodbye, 20th Century"
-        ]
+        "name": "Luxembourg",
+        "code": "LU",
+        "movies": []
+    },
+    {
+        "name": "Macao",
+        "code": "MO",
+        "movies": []
+    },
+    {
+        "name": "Macedonia, The Former Yugoslav Republic of",
+        "code": "MK",
+        "movies": []
+    },
+    {
+        "name": "Madagascar",
+        "code": "MG",
+        "movies": []
+    },
+    {
+        "name": "Malawi",
+        "code": "MW",
+        "movies": []
     },
     {
         "name": "Malaysia",
+        "code": "MY",
         "movies": [
             "Three Bachelors",
             "Rivals Three",
@@ -1559,19 +1938,58 @@
         ]
     },
     {
+        "name": "Maldives",
+        "code": "MV",
+        "movies": []
+    },
+    {
         "name": "Mali",
-        "movies": ["Brightness ", "The Wind", "Faro: Goddess of the Waters"]
+        "code": "ML",
+        "movies": [
+            "Brightness ",
+            "The Wind",
+            "Faro: Goddess of the Waters"
+        ]
+    },
+    {
+        "name": "Malta",
+        "code": "MT",
+        "movies": []
+    },
+    {
+        "name": "Marshall Islands",
+        "code": "MH",
+        "movies": []
     },
     {
         "name": "Martinique",
-        "movies": ["Sugar Cane Alley"]
+        "code": "MQ",
+        "movies": [
+            "Sugar Cane Alley"
+        ]
     },
     {
         "name": "Mauritania",
-        "movies": ["Oh, Sun", "Life on Earth", "Waiting for Happiness"]
+        "code": "MR",
+        "movies": [
+            "Oh, Sun",
+            "Life on Earth",
+            "Waiting for Happiness"
+        ]
+    },
+    {
+        "name": "Mauritius",
+        "code": "MU",
+        "movies": []
+    },
+    {
+        "name": "Mayotte",
+        "code": "YT",
+        "movies": []
     },
     {
         "name": "Mexico",
+        "code": "MX",
         "movies": [
             "Pan's Labyrinth",
             "Children of Men",
@@ -1601,7 +2019,23 @@
         ]
     },
     {
+        "name": "Micronesia, Federated States of",
+        "code": "FM",
+        "movies": []
+    },
+    {
+        "name": "Moldova, Republic of",
+        "code": "MD",
+        "movies": []
+    },
+    {
+        "name": "Monaco",
+        "code": "MC",
+        "movies": []
+    },
+    {
         "name": "Mongolia",
+        "code": "MN",
         "movies": [
             "Chuchelo",
             "Mongol",
@@ -1612,7 +2046,13 @@
         ]
     },
     {
+        "name": "Montserrat",
+        "code": "MS",
+        "movies": []
+    },
+    {
         "name": "Morocco",
+        "code": "MA",
         "movies": [
             "Goodbye Mothers",
             "Cry No More",
@@ -1622,11 +2062,36 @@
         ]
     },
     {
+        "name": "Mozambique",
+        "code": "MZ",
+        "movies": []
+    },
+    {
+        "name": "Myanmar",
+        "code": "MM",
+        "movies": []
+    },
+    {
+        "name": "Namibia",
+        "code": "NA",
+        "movies": []
+    },
+    {
+        "name": "Nauru",
+        "code": "NR",
+        "movies": []
+    },
+    {
         "name": "Nepal",
-        "movies": ["Basain", "Himalaya"]
+        "code": "NP",
+        "movies": [
+            "Basain",
+            "Himalaya"
+        ]
     },
     {
         "name": "Netherlands",
+        "code": "NL",
         "movies": [
             "Black Book",
             "The Vanishing ",
@@ -1660,7 +2125,18 @@
         ]
     },
     {
+        "name": "Netherlands Antilles",
+        "code": "AN",
+        "movies": []
+    },
+    {
+        "name": "New Caledonia",
+        "code": "NC",
+        "movies": []
+    },
+    {
         "name": "New Zealand",
+        "code": "NZ",
         "movies": [
             "The Lord of the Rings",
             "King Kong",
@@ -1689,19 +2165,46 @@
         ]
     },
     {
+        "name": "Nicaragua",
+        "code": "NI",
+        "movies": []
+    },
+    {
         "name": "Niger",
-        "movies": ["Return of an Adventurer", "Cocka-doodle-doo Mr. Chicken"]
+        "code": "NE",
+        "movies": [
+            "Return of an Adventurer",
+            "Cocka-doodle-doo Mr. Chicken"
+        ]
     },
     {
         "name": "Nigeria",
-        "movies": ["Ezra", "Ije", "Osuofia in London", "Legacy"]
+        "code": "NG",
+        "movies": [
+            "Ezra",
+            "Ije",
+            "Osuofia in London",
+            "Legacy"
+        ]
     },
     {
-        "name": "North Korea",
-        "movies": ["Repatriation", "Hero"]
+        "name": "Niue",
+        "code": "NU",
+        "movies": []
+    },
+    {
+        "name": "Norfolk Island",
+        "code": "NF",
+        "movies": []
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "code": "MP",
+        "movies": []
     },
     {
         "name": "Norway",
+        "code": "NO",
         "movies": [
             "Pinchcliffe Grand Prix",
             "Little Freddy and his Fiddle",
@@ -1735,7 +2238,13 @@
         ]
     },
     {
+        "name": "Oman",
+        "code": "OM",
+        "movies": []
+    },
+    {
         "name": "Pakistan",
+        "code": "PK",
         "movies": [
             "Mr Jinnah: The Making of Pakistan",
             "The Day Shall Dawn",
@@ -1752,31 +2261,38 @@
         ]
     },
     {
-        "name": "Palestine",
-        "movies": [
-            "Paradise Now",
-            "Muhammad: Legacy of a Prophet ",
-            "The Sons of Eilaboun",
-            "Frontiers of Dreams and Fears",
-            "Death in Gaza",
-            "Ford Transit",
-            "The Inner Tour",
-            "The Olive Harvest",
-            "Chronicle of a Disappearance",
-            "Divine Intervention",
-            "Tears of Gaza"
-        ]
+        "name": "Palau",
+        "code": "PW",
+        "movies": []
+    },
+    {
+        "name": "Palestinian Territory, Occupied",
+        "code": "PS",
+        "movies": []
     },
     {
         "name": "Panama",
-        "movies": ["The Wind and the Water", "One Dollar"]
+        "code": "PA",
+        "movies": [
+            "The Wind and the Water",
+            "One Dollar"
+        ]
     },
     {
         "name": "Papua New Guinea",
-        "movies": ["Black Harvest"]
+        "code": "PG",
+        "movies": [
+            "Black Harvest"
+        ]
+    },
+    {
+        "name": "Paraguay",
+        "code": "PY",
+        "movies": []
     },
     {
         "name": "Peru",
+        "code": "PE",
         "movies": [
             "The Green Wall",
             "The City and the Dogs",
@@ -1792,6 +2308,7 @@
     },
     {
         "name": "Philippines",
+        "code": "PH",
         "movies": [
             "Kill Barbara With Panic",
             "The Rites of May",
@@ -1811,7 +2328,13 @@
         ]
     },
     {
+        "name": "Pitcairn",
+        "code": "PN",
+        "movies": []
+    },
+    {
         "name": "Poland",
+        "code": "PL",
         "movies": [
             "The Pianist",
             "Revenge of the Kinematograph Cameraman ",
@@ -1860,6 +2383,7 @@
     },
     {
         "name": "Portugal",
+        "code": "PT",
         "movies": [
             "Lisbon Song",
             "Working on the Douro River ",
@@ -1889,6 +2413,7 @@
     },
     {
         "name": "Puerto Rico",
+        "code": "PR",
         "movies": [
             "The Ballplayers",
             "Santiago, the Story of His New Life",
@@ -1900,7 +2425,18 @@
         ]
     },
     {
+        "name": "Qatar",
+        "code": "QA",
+        "movies": []
+    },
+    {
+        "name": "Reunion",
+        "code": "RE",
+        "movies": []
+    },
+    {
         "name": "Romania",
+        "code": "RO",
         "movies": [
             "The Moromete",
             "Michael the Brave",
@@ -1937,47 +2473,66 @@
         ]
     },
     {
-        "name": "Russia",
-        "movies": [
-            "The Battleship Potemkin ",
-            "Man with a Movie Camera",
-            "Solaris",
-            "Strike",
-            "Stalker",
-            "Aleksandr Nevskiy",
-            "October: Ten Days That Shook the World",
-            "Andrei Roublev",
-            "The Adventures of S. Holmes and Dr. Watson",
-            "Ivan the Terrible",
-            "You Just Wait!",
-            "Seventeen Moments of Spring",
-            "Mother",
-            "The Mirror",
-            "The Irony of Fate",
-            "Ivan's Childhood",
-            "The Cranes Are Flying",
-            "The Meeting Place Cannot Be Changed",
-            "Beware of the Car",
-            "Heart of a Dog",
-            "The End of St. Petersburg ",
-            "The Girls",
-            "Dersu Uzala",
-            "Malysh and Karlson",
-            "Gentlemen of Fortune",
-            "\"Come and See\"",
-            "\"The Thief\""
-        ]
+        "name": "Russian Federation",
+        "code": "RU",
+        "movies": []
     },
     {
-        "name": "Rwanda",
-        "movies": ["Keepers of Memory", "Munyurangabo"]
+        "name": "RWANDA",
+        "code": "RW",
+        "movies": []
+    },
+    {
+        "name": "Saint Helena",
+        "code": "SH",
+        "movies": []
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "code": "KN",
+        "movies": []
+    },
+    {
+        "name": "Saint Lucia",
+        "code": "LC",
+        "movies": []
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "code": "PM",
+        "movies": []
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "code": "VC",
+        "movies": []
+    },
+    {
+        "name": "Samoa",
+        "code": "WS",
+        "movies": []
+    },
+    {
+        "name": "San Marino",
+        "code": "SM",
+        "movies": []
+    },
+    {
+        "name": "Sao Tome and Principe",
+        "code": "ST",
+        "movies": []
     },
     {
         "name": "Saudi Arabia",
-        "movies": ["Cinema 500 km", "Aayesh"]
+        "code": "SA",
+        "movies": [
+            "Cinema 500 km",
+            "Aayesh"
+        ]
     },
     {
         "name": "Senegal",
+        "code": "SN",
         "movies": [
             "Black Girl",
             "The Money Order",
@@ -1991,49 +2546,28 @@
         ]
     },
     {
-        "name": "Serbia",
-        "movies": [
-            "Neck in strawberries",
-            "Hot Wind ",
-            "Radovan III",
-            "Opened Door",
-            "Who's That Singing Over There",
-            "The Marathon Family",
-            "Underground",
-            "Black Cat, White Cat",
-            "Harmonious Brothers",
-            "Time of the Gypsies",
-            "Balkan Spy",
-            "Leptirica",
-            "The Boy from Junkovca",
-            "The Storks Will Return",
-            "We Are Not Angels",
-            "Varljivo leto '68",
-            "When Father Was Away on Business",
-            "Barking to the stars",
-            "Three Cards to Hollywood",
-            "I Even Met Happy Gypsies",
-            "Do You Remember Dolly Bell?",
-            "When I Am Dead and Gone",
-            "The Wounds",
-            "Smallpox",
-            "Life is Miracle",
-            "Red Wheat",
-            "National Class",
-            "Innocence Unprotected",
-            "Savior",
-            "Pretty Village, Pretty Flame",
-            "Cabaret Balkan",
-            "W.R.: Mysteries of the Organism W.R.",
-            "Huddersfield",
-            "The Trap",
-            "Tito and Me",
-            "Professional",
-            "Montevideo, God Bless You!"
-        ]
+        "name": "Serbia and Montenegro",
+        "code": "CS",
+        "movies": []
+    },
+    {
+        "name": "Seychelles",
+        "code": "SC",
+        "movies": []
+    },
+    {
+        "name": "Sierra Leone",
+        "code": "SL",
+        "movies": []
+    },
+    {
+        "name": "Singapore",
+        "code": "SG",
+        "movies": []
     },
     {
         "name": "Slovakia",
+        "code": "SK",
         "movies": [
             "The Shop on Main Street",
             "The Sun in a Net",
@@ -2049,6 +2583,7 @@
     },
     {
         "name": "Slovenia",
+        "code": "SI",
         "movies": [
             "Vesna ",
             "Kekec",
@@ -2065,7 +2600,18 @@
         ]
     },
     {
+        "name": "Solomon Islands",
+        "code": "SB",
+        "movies": []
+    },
+    {
+        "name": "Somalia",
+        "code": "SO",
+        "movies": []
+    },
+    {
         "name": "South Africa",
+        "code": "ZA",
         "movies": [
             "District 9",
             "Jerusalema",
@@ -2086,48 +2632,13 @@
         ]
     },
     {
-        "name": "South Korea",
-        "movies": [
-            "Oldboy ",
-            "Spring, Summer, Fall, Winter... and Spring",
-            "My Sassy Girl",
-            "The Brotherhood Of War",
-            "3-Iron",
-            "Memories of Murder",
-            "Sympathy for Mr. Vengeance",
-            "Lady Vengeance",
-            " Joint Security Area",
-            "Hanyo",
-            "A Tale of Two Sisters",
-            "The Host",
-            "A Bittersweet Life",
-            "A Moment to Remember",
-            "The Aimless Bullet",
-            "The Chaser",
-            "Oasis",
-            "Il Mare",
-            "The Warrior",
-            "Burying Old Alive",
-            "Save the Green Planet!",
-            "Three... Extremes",
-            "Sopyonje",
-            "Why Has Bodhi-Dharma Left for the East?: A Zen Fable",
-            "Samaritan Girl",
-            "Thirst",
-            "The Good, the Bad, the Weird",
-            "The Isle",
-            "Time",
-            "I'm a Cyborg, But That's OK",
-            "Friend",
-            "The Bow",
-            "To the Starry Island",
-            "Black Republic",
-            "The Man from Nowhere",
-            "I Saw the Devil"
-        ]
+        "name": "South Georgia and the South Sandwich Islands",
+        "code": "GS",
+        "movies": []
     },
     {
         "name": "Spain",
+        "code": "ES",
         "movies": [
             "An Andalusian Dog",
             "The Machinist",
@@ -2182,6 +2693,7 @@
     },
     {
         "name": "Sri Lanka",
+        "code": "LK",
         "movies": [
             "From Dust",
             "The Third Wave",
@@ -2194,7 +2706,28 @@
         ]
     },
     {
+        "name": "Sudan",
+        "code": "SD",
+        "movies": []
+    },
+    {
+        "name": "Suriname",
+        "code": "SR",
+        "movies": []
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "code": "SJ",
+        "movies": []
+    },
+    {
+        "name": "Swaziland",
+        "code": "SZ",
+        "movies": []
+    },
+    {
         "name": "Sweden",
+        "code": "SE",
         "movies": [
             "The Seventh Seal",
             "Wild Strawberries",
@@ -2215,6 +2748,7 @@
     },
     {
         "name": "Switzerland",
+        "code": "CH",
         "movies": [
             "Pingu",
             "The Lacemaker",
@@ -2230,50 +2764,32 @@
         ]
     },
     {
-        "name": "Syria",
-        "movies": [
-            "I am the One That Carries the Flowers to Her Grave",
-            "Oral Messages",
-            "The Deceived",
-            "The Extras",
-            "The Syrian Bride",
-            "Jackal Nights",
-            "The Box of Life"
-        ]
+        "name": "Syrian Arab Republic",
+        "code": "SY",
+        "movies": []
     },
     {
-        "name": "Taiwan",
-        "movies": [
-            "A Brighter Summer Day",
-            "Eat Drink Man Woman",
-            "A City of Sadness",
-            "A Touch of Zen",
-            "Yi Yi: A One and a Two",
-            "The Dull Ice Flower",
-            "The Wedding Banquet",
-            "A Summer at Grandpa's",
-            "Dragon Gate Inn",
-            "A Time to Live and a Time to Die",
-            "Come Drink with Me",
-            "Dust in the Wind",
-            "Born Invincible",
-            "Rebels of the Neon God",
-            "Vive L'Amour"
-        ]
+        "name": "Taiwan, Province of China",
+        "code": "TW",
+        "movies": []
     },
     {
         "name": "Tajikistan",
-        "movies": ["Luna Papa", "The Silence", "Kosh ba kosh"]
-    },
-    {
-        "name": "Tanzania",
+        "code": "TJ",
         "movies": [
-            "People of the Forest: The Chimps of Gombe",
-            "Maangamizi: The Ancient One"
+            "Luna Papa",
+            "The Silence",
+            "Kosh ba kosh"
         ]
     },
     {
+        "name": "Tanzania, United Republic of",
+        "code": "TZ",
+        "movies": []
+    },
+    {
         "name": "Thailand",
+        "code": "TH",
         "movies": [
             "Ong-bak",
             "Last Life in the Universe",
@@ -2296,11 +2812,33 @@
         ]
     },
     {
-        "name": "Trinidad tobago",
-        "movies": ["Bim", "The Right and the Wrong", "A Winter Tale"]
+        "name": "Timor-Leste",
+        "code": "TL",
+        "movies": []
+    },
+    {
+        "name": "Togo",
+        "code": "TG",
+        "movies": []
+    },
+    {
+        "name": "Tokelau",
+        "code": "TK",
+        "movies": []
+    },
+    {
+        "name": "Tonga",
+        "code": "TO",
+        "movies": []
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "code": "TT",
+        "movies": []
     },
     {
         "name": "Tunisia",
+        "code": "TN",
         "movies": [
             "The Magic",
             "Layla",
@@ -2312,6 +2850,7 @@
     },
     {
         "name": "Turkey",
+        "code": "TR",
         "movies": [
             "BEST DIRECTORS FROM TURKEY - TOP 30",
             "Ertem E\u011filmez",
@@ -2405,11 +2944,28 @@
         ]
     },
     {
-        "name": "U.a.e.",
-        "movies": ["Neighbourhood", "Mirrors of Silence"]
+        "name": "Turkmenistan",
+        "code": "TM",
+        "movies": []
+    },
+    {
+        "name": "Turks and Caicos Islands",
+        "code": "TC",
+        "movies": []
+    },
+    {
+        "name": "Tuvalu",
+        "code": "TV",
+        "movies": []
+    },
+    {
+        "name": "Uganda",
+        "code": "UG",
+        "movies": []
     },
     {
         "name": "Ukraine",
+        "code": "UA",
         "movies": [
             "Ballad of a Soldier",
             "Earth",
@@ -2422,7 +2978,13 @@
         ]
     },
     {
+        "name": "United Arab Emirates",
+        "code": "AE",
+        "movies": []
+    },
+    {
         "name": "United Kingdom",
+        "code": "GB",
         "movies": [
             "Dr. Strangelove",
             "A Clockwork Orange",
@@ -2453,6 +3015,7 @@
     },
     {
         "name": "United States",
+        "code": "US",
         "movies": [
             "The Godfather",
             "Rocky",
@@ -2484,7 +3047,13 @@
         ]
     },
     {
+        "name": "United States Minor Outlying Islands",
+        "code": "UM",
+        "movies": []
+    },
+    {
         "name": "Uruguay",
+        "code": "UY",
         "movies": [
             "Aside",
             "Whisky",
@@ -2495,10 +3064,19 @@
     },
     {
         "name": "Uzbekistan",
-        "movies": ["The Desert of Forbidden Art"]
+        "code": "UZ",
+        "movies": [
+            "The Desert of Forbidden Art"
+        ]
+    },
+    {
+        "name": "Vanuatu",
+        "code": "VU",
+        "movies": []
     },
     {
         "name": "Venezuela",
+        "code": "VE",
         "movies": [
             "Araya",
             "The Revolution Will Not Be Televised",
@@ -2510,20 +3088,43 @@
         ]
     },
     {
-        "name": "Vietnam",
-        "movies": [
-            "The Scent of Green Papaya",
-            "Cyclo",
-            "The Beautiful Country",
-            "Three Seasons",
-            "Owl and the Sparrow",
-            "Living in Fear",
-            "When the Tenth Month Comes",
-            "The White Silk Dress",
-            "The Rebel ",
-            "Journey from the Fall",
-            "The Buffalo Boy",
-            "Fool for Love"
-        ]
+        "name": "Viet Nam",
+        "code": "VN",
+        "movies": []
+    },
+    {
+        "name": "Virgin Islands, British",
+        "code": "VG",
+        "movies": []
+    },
+    {
+        "name": "Virgin Islands, U.S.",
+        "code": "VI",
+        "movies": []
+    },
+    {
+        "name": "Wallis and Futuna",
+        "code": "WF",
+        "movies": []
+    },
+    {
+        "name": "Western Sahara",
+        "code": "EH",
+        "movies": []
+    },
+    {
+        "name": "Yemen",
+        "code": "YE",
+        "movies": []
+    },
+    {
+        "name": "Zambia",
+        "code": "ZM",
+        "movies": []
+    },
+    {
+        "name": "Zimbabwe",
+        "code": "ZW",
+        "movies": []
     }
 ]
