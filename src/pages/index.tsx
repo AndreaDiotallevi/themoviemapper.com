@@ -37,6 +37,17 @@ const IndexPage = () => {
 
     return (
         <div style={{ height: "100vh", width: "100%" }}>
+            <SEO
+                title="The Movie Mapper - Find The Best Movies From Each Country"
+                description="Find The Best Movies From Each Country By Clicking On The Map Of The World"
+                tags={[
+                    "The Movie Mapper",
+                    "Movies",
+                    "Best Movies",
+                    "Best Movies By Country",
+                    "Click On Map",
+                ]}
+            />
             <Header isHome={true} title="THE MOVIE MAPPER" />
             <div className="sub-header-description" style={{ margin: 0 }}>
                 <p style={{ padding: 8, width: "100%" }}>
@@ -44,11 +55,6 @@ const IndexPage = () => {
                     country!
                 </p>
             </div>
-            <SEO
-                title="The Movie Mapper - Find The Best Movies From Each Country"
-                description="Find The Best Movies From Each Country By Clicking On The Map Of The World"
-                tags={[]}
-            />
             <GoogleMapReact
                 bootstrapURLKeys={{ key: process.env.REACT_APP_MAPS_API || "" }}
                 defaultCenter={{

@@ -92,7 +92,10 @@ const Country = ({
             <SEO
                 title="The Movie Mapper - TBC"
                 description="Find The Best Movies From Each Country By Clicking On The Map Of The World"
-                tags={[]}
+                tags={[
+                    "The Movie Mapper",
+                    `Best Movies Of ${countriesJson.name}`,
+                ]}
             />
             <Header
                 isHome={false}
