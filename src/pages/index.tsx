@@ -17,13 +17,13 @@ const IndexPage = () => {
         console.log("here")
         // console.log(process)
         console.log(process.env.NODE_ENV)
-        console.log(process.env.REACT_APP_LOCATION_API)
-        console.log(process.env.REACT_APP_MAPS_API)
-        console.log(process.env.REACT_APP_OMDB_API)
+        console.log(process.env.GATSBY_LOCATION_API)
+        console.log(process.env.GATSBY_MAPS_API)
+        console.log(process.env.GATSBY_OMDB_API)
         console.log(process.env.GA_TRACKING_ID)
         try {
             const response = await axios.get(
-                `https://us1.locationiq.com/v1/reverse.php?key=${process.env.REACT_APP_LOCATION_API}&lat=${lat}&lon=${lng}&format=json`
+                `https://us1.locationiq.com/v1/reverse.php?key=${process.env.GATSBY_LOCATION_API}&lat=${lat}&lon=${lng}&format=json`
             )
 
             if (!response) return
@@ -64,7 +64,7 @@ const IndexPage = () => {
                 </p>
             </div>
             <GoogleMapReact
-                bootstrapURLKeys={{ key: process.env.REACT_APP_MAPS_API || "" }}
+                bootstrapURLKeys={{ key: process.env.GATSBY_MAPS_API || "" }}
                 defaultCenter={{
                     lat: 15,
                     lng: 0,

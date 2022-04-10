@@ -67,7 +67,7 @@ const Country = ({
             countriesJson.movies.forEach(async (movie, index) => {
                 const titleUrl = movie.toLowerCase().split(" ").join("-")
                 const response = await axios.get(
-                    `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API}&t=${titleUrl}`
+                    `https://www.omdbapi.com/?apikey=${process.env.GATSBY_OMDB_API}&t=${titleUrl}`
                 )
 
                 if (response.data["Response"] === "True") {
