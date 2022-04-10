@@ -99,9 +99,6 @@ const IndexPage = () => {
                                 {
                                     color: "#FFFFFF",
                                 },
-                                // {
-                                //     weight: 0.6,
-                                // },
                             ],
                         },
                         {
