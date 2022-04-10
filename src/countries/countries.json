@@ -55,10 +55,7 @@
     {
         "name": "Angola",
         "code": "AO",
-        "movies": [
-            "Sambizanga",
-            "Hollow City"
-        ]
+        "movies": ["Sambizanga", "Hollow City"]
     },
     {
         "name": "Anguilla",
@@ -217,9 +214,7 @@
     {
         "name": "Azerbaijan",
         "code": "AZ",
-        "movies": [
-            "The Scoundrel"
-        ]
+        "movies": ["The Scoundrel"]
     },
     {
         "name": "Bahamas",
@@ -229,9 +224,7 @@
     {
         "name": "Bahrain",
         "code": "BH",
-        "movies": [
-            "A Bahraini Tale"
-        ]
+        "movies": ["A Bahraini Tale"]
     },
     {
         "name": "Bangladesh",
@@ -315,10 +308,7 @@
     {
         "name": "Bhutan",
         "code": "BT",
-        "movies": [
-            "Travellers and Magicians",
-            "The Cup"
-        ]
+        "movies": ["Travellers and Magicians", "The Cup"]
     },
     {
         "name": "Bolivia",
@@ -481,11 +471,7 @@
     {
         "name": "Cameroon",
         "code": "CM",
-        "movies": [
-            "Chocolat",
-            "Man on the Bottom",
-            "Sisters in Law"
-        ]
+        "movies": ["Chocolat", "Man on the Bottom", "Sisters in Law"]
     },
     {
         "name": "Canada",
@@ -861,11 +847,7 @@
     {
         "name": "Ecuador",
         "code": "EC",
-        "movies": [
-            "Chronicles",
-            "Rodents",
-            "How Much Further"
-        ]
+        "movies": ["Chronicles", "Rodents", "How Much Further"]
     },
     {
         "name": "Egypt",
@@ -1283,11 +1265,7 @@
     {
         "name": "Ghana",
         "code": "GH",
-        "movies": [
-            "Mummy's Daughter",
-            "Soul to Soul",
-            "Sankofa"
-        ]
+        "movies": ["Mummy's Daughter", "Soul to Soul", "Sankofa"]
     },
     {
         "name": "Gibraltar",
@@ -1347,10 +1325,7 @@
     {
         "name": "Guam",
         "code": "GU",
-        "movies": [
-            "What Sebastian Dreamt",
-            "The Railroad All Stars"
-        ]
+        "movies": ["What Sebastian Dreamt", "The Railroad All Stars"]
     },
     {
         "name": "Guatemala",
@@ -1365,10 +1340,7 @@
     {
         "name": "Guinea",
         "code": "GN",
-        "movies": [
-            "Denko",
-            "I.T.  Immatriculation temporaire"
-        ]
+        "movies": ["Denko", "I.T.  Immatriculation temporaire"]
     },
     {
         "name": "Guinea-Bissau",
@@ -1378,9 +1350,7 @@
     {
         "name": "Guyana",
         "code": "GY",
-        "movies": [
-            "Guiana 1838"
-        ]
+        "movies": ["Guiana 1838"]
     },
     {
         "name": "Haiti",
@@ -1725,11 +1695,7 @@
     {
         "name": "Jamaica",
         "code": "JM",
-        "movies": [
-            "The Harder They Come",
-            "Rockers ",
-            "Countryman"
-        ]
+        "movies": ["The Harder They Come", "Rockers ", "Countryman"]
     },
     {
         "name": "Japan",
@@ -1770,18 +1736,12 @@
     {
         "name": "Jordan",
         "code": "JO",
-        "movies": [
-            "Captain Abu Raed"
-        ]
+        "movies": ["Captain Abu Raed"]
     },
     {
         "name": "Kazakhstan",
         "code": "KZ",
-        "movies": [
-            "The Fall of Otrar",
-            "The Gift to Stalin",
-            "Tulpan"
-        ]
+        "movies": ["The Fall of Otrar", "The Gift to Stalin", "Tulpan"]
     },
     {
         "name": "Kenya",
@@ -1812,20 +1772,12 @@
     {
         "name": "Kuwait",
         "code": "KW",
-        "movies": [
-            "Losing Ahmad",
-            "Cruel Sea",
-            "Just Like You Imagined "
-        ]
+        "movies": ["Losing Ahmad", "Cruel Sea", "Just Like You Imagined "]
     },
     {
         "name": "Kyrgyzstan",
         "code": "KG",
-        "movies": [
-            "Tengri",
-            "The Adopted Son",
-            "Pure Coolness "
-        ]
+        "movies": ["Tengri", "The Adopted Son", "Pure Coolness "]
     },
     {
         "name": "Lao People'S Democratic Republic",
@@ -1945,11 +1897,7 @@
     {
         "name": "Mali",
         "code": "ML",
-        "movies": [
-            "Brightness ",
-            "The Wind",
-            "Faro: Goddess of the Waters"
-        ]
+        "movies": ["Brightness ", "The Wind", "Faro: Goddess of the Waters"]
     },
     {
         "name": "Malta",
@@ -1964,18 +1912,12 @@
     {
         "name": "Martinique",
         "code": "MQ",
-        "movies": [
-            "Sugar Cane Alley"
-        ]
+        "movies": ["Sugar Cane Alley"]
     },
     {
         "name": "Mauritania",
         "code": "MR",
-        "movies": [
-            "Oh, Sun",
-            "Life on Earth",
-            "Waiting for Happiness"
-        ]
+        "movies": ["Oh, Sun", "Life on Earth", "Waiting for Happiness"]
     },
     {
         "name": "Mauritius",
@@ -2084,10 +2026,7 @@
     {
         "name": "Nepal",
         "code": "NP",
-        "movies": [
-            "Basain",
-            "Himalaya"
-        ]
+        "movies": ["Basain", "Himalaya"]
     },
     {
         "name": "Netherlands",
@@ -2172,20 +2111,12 @@
     {
         "name": "Niger",
         "code": "NE",
-        "movies": [
-            "Return of an Adventurer",
-            "Cocka-doodle-doo Mr. Chicken"
-        ]
+        "movies": ["Return of an Adventurer", "Cocka-doodle-doo Mr. Chicken"]
     },
     {
         "name": "Nigeria",
         "code": "NG",
-        "movies": [
-            "Ezra",
-            "Ije",
-            "Osuofia in London",
-            "Legacy"
-        ]
+        "movies": ["Ezra", "Ije", "Osuofia in London", "Legacy"]
     },
     {
         "name": "Niue",
@@ -2273,17 +2204,12 @@
     {
         "name": "Panama",
         "code": "PA",
-        "movies": [
-            "The Wind and the Water",
-            "One Dollar"
-        ]
+        "movies": ["The Wind and the Water", "One Dollar"]
     },
     {
         "name": "Papua New Guinea",
         "code": "PG",
-        "movies": [
-            "Black Harvest"
-        ]
+        "movies": ["Black Harvest"]
     },
     {
         "name": "Paraguay",
@@ -2525,10 +2451,7 @@
     {
         "name": "Saudi Arabia",
         "code": "SA",
-        "movies": [
-            "Cinema 500 km",
-            "Aayesh"
-        ]
+        "movies": ["Cinema 500 km", "Aayesh"]
     },
     {
         "name": "Senegal",
@@ -2776,11 +2699,7 @@
     {
         "name": "Tajikistan",
         "code": "TJ",
-        "movies": [
-            "Luna Papa",
-            "The Silence",
-            "Kosh ba kosh"
-        ]
+        "movies": ["Luna Papa", "The Silence", "Kosh ba kosh"]
     },
     {
         "name": "Tanzania, United Republic of",
@@ -3065,9 +2984,7 @@
     {
         "name": "Uzbekistan",
         "code": "UZ",
-        "movies": [
-            "The Desert of Forbidden Art"
-        ]
+        "movies": ["The Desert of Forbidden Art"]
     },
     {
         "name": "Vanuatu",
@@ -3088,7 +3005,7 @@
         ]
     },
     {
-        "name": "Viet Nam",
+        "name": "Vietnam",
         "code": "VN",
         "movies": []
     },
