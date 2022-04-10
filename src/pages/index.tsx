@@ -63,6 +63,73 @@ const IndexPage = () => {
                 }}
                 defaultZoom={2.4}
                 onClick={handleClick}
+                options={{
+                    styles: [
+                        {
+                            featureType: "all",
+                            elementType: "all",
+                            stylers: [
+                                {
+                                    visibility: "off",
+                                },
+                            ],
+                        },
+                        {
+                            featureType: "all",
+                            elementType: "labels.text.fill",
+                            stylers: [
+                                {
+                                    color: "#FFFFFF",
+                                },
+                                {
+                                    visibility: "on",
+                                },
+                                {
+                                    "font-family": "Work Sans",
+                                },
+                            ],
+                        },
+                        {
+                            featureType: "administrative.country",
+                            elementType: "geometry.stroke",
+                            stylers: [
+                                {
+                                    visibility: "on",
+                                },
+                                {
+                                    color: "#FFFFFF",
+                                },
+                                // {
+                                //     weight: 0.6,
+                                // },
+                            ],
+                        },
+                        {
+                            featureType: "landscape.natural",
+                            elementType: "geometry.fill",
+                            stylers: [
+                                {
+                                    visibility: "on",
+                                },
+                                {
+                                    color: "#4d6059",
+                                },
+                            ],
+                        },
+                        {
+                            featureType: "water",
+                            elementType: "all",
+                            stylers: [
+                                {
+                                    color: "#38444C",
+                                },
+                                {
+                                    visibility: "on",
+                                },
+                            ],
+                        },
+                    ],
+                }}
             />
         </div>
     )
