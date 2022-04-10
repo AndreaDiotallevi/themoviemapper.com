@@ -1,7 +1,8 @@
 import type { GatsbyConfig } from "gatsby"
 import path from "path"
-import * as dotenv from "dotenv"
-dotenv.config()
+// import * as dotenv from "dotenv"
+
+// dotenv.config({ path: `.env.${process.env.NODE_ENV}` })
 
 const config: GatsbyConfig = {
     siteMetadata: {
@@ -45,13 +46,6 @@ const config: GatsbyConfig = {
                 },
             },
         },
-        // {
-        //     resolve: `@ccalamos/gatsby-source-googlemaps-static`,
-        //     options: {
-        //         key: process.env.REACT_APP_MAPS_API,
-        //         center: `LATITUDE,LONGITUDE || CITY,REGION`,
-        //     },
-        // },
     ],
 }
 
