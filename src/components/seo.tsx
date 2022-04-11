@@ -59,10 +59,6 @@ const SEO = (props: DataProps) => {
                 <meta name="twitter:description" content={seo.description} />
             )}
             {seo.image && <meta name="twitter:image" content={seo.image} />}
-            <meta
-                name="google-site-verification"
-                content="GdvcZOvv3IM8wC68FDastgomwrY_DN4jlSBzahifUCs"
-            />
         </Helmet>
     )
 }
