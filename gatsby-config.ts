@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
     siteMetadata: {
         title: `The Movie Mapper - Find The Best Movies From Each Country`,
         author: `Andrea Diotallevi`,
-        description: `Find The Best Movies From Each Country By Clicking On The Map Of The World`,
+        description: `Find The Best Movies From Each Country By Clicking On The Map`,
         url: `https://www.themoviemapper.com`,
         image: `/globe.png`,
         twitterUsername: `@a_diotallevi_`,

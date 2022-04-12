@@ -39,13 +39,14 @@ const IndexPage = () => {
         <div style={{ height: "100vh", width: "100%" }}>
             <SEO
                 title="The Movie Mapper - Find The Best Movies From Each Country"
-                description="Find The Best Movies From Each Country By Clicking On The Map Of The World"
+                description="Find The Best Movies From Each Country By Clicking On The Map"
                 tags={[
                     "The Movie Mapper",
                     "Movies",
                     "Best Movies",
                     "Best Movies By Country",
-                    "Click On Map",
+                    "Best Movies From Each Country",
+                    "Click On The Map",
                 ]}
             />
             <Header isHome={true} title="THE MOVIE MAPPER" />

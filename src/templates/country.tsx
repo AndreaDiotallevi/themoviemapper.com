@@ -96,11 +96,12 @@ const Country = ({
     return (
         <div>
             <SEO
-                title="The Movie Mapper - TBC"
-                description="Find The Best Movies From Each Country By Clicking On The Map Of The World"
+                title={`The Movie Mapper - The Best Movies from ${countriesJson.name}`}
+                description={`The Best Movies From ${countriesJson.name}`}
                 tags={[
                     "The Movie Mapper",
-                    `Best Movies Of ${countriesJson.name}`,
+                    `The Best Movies From ${countriesJson.name}`,
+                    ...countriesJson.movies,
                 ]}
             />
             <Header
